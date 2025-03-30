@@ -1,18 +1,27 @@
 {
 	"compilerOptions": {
-		"forceConsistentCasingInFileNames": true,
-		"sourceMap": true,
+		"baseUrl": "./",
 		"declaration": false,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"lib": [
+			"ES2023",
+			"dom"
+		],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"newLine": "LF",
 		"noImplicitReturns": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
+		"outDir": "Target",
+		"rootDir": "src",
+		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "node",
-		"newLine": "LF",
-		"jsx": "react",
-		"module": "esnext",
-		"target": "ES2023",
-		"lib": ["ES2023", "dom"],
-		"outDir": "dist"
-	}
+		"target": "ES2023"
+	},
+	"extends": "@playform/build/tsconfig",
+	"include": [
+		"src"
+	]
 }

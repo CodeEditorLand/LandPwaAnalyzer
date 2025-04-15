@@ -1,43 +1,43 @@
 {
-	"name": "@codeeditorland/pwa-analyzer",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Log viewer for https://github.com/microsoft/vscode-pwa",
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPwaAnalyzer#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPwaAnalyzer/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandPwaAnalyzer.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
 		"email": "Source/Open@Editor.Land",
+		"name": "Source 🖋️ Open 👐🏻",
 		"url": "HTTPS://Editor.Land"
 	},
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"build": "vite build",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"start": "vite"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPwaAnalyzer/issues"
 	},
 	"dependencies": {
 		"@microlink/react-json-view": "1.26.1",
 		"fflate": "0.8.2"
 	},
+	"description": "Log viewer for https://github.com/microsoft/vscode-pwa",
 	"devDependencies": {
 		"@playform/build": "0.2.3",
 		"normalize.css": "8.0.1"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPwaAnalyzer#readme",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "index.js",
+	"name": "@codeeditorland/pwa-analyzer",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPwaAnalyzer.git"
+	},
+	"scripts": {
+		"build": "vite build",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "vite"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
